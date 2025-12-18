@@ -198,7 +198,7 @@
             android:layout_height="wrap_content"
             android:text="© 2025 Noranis Shuhada Binti Rosli. All rights reserved."
             android:textSize="11sp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:textColor="@android:color/darker_gray"
             android:gravity="center"/>
