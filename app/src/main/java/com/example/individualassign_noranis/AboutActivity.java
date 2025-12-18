@@ -26,7 +26,7 @@ public class AboutActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // Updated to your specific URL
-                    String url = "https://github.com/2023239548-source/ElectricityBillApp";
+                    String url = "https://github.com/2023239548-source/IndividualAssign_NORANIS";
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse(url));
                     startActivity(intent);
