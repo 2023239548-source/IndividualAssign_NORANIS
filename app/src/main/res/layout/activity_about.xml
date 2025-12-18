@@ -155,7 +155,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. Select the billing month from the dropdown.\n2. Enter your total units used (kWh).\n3. Choose a rebate percentage (0-5%).\n4. Click 'Calculate' to see your bill.\n5. Click 'Save Bill' to save your bill in history.\n6. Use 'View Billing History' to see previous calculations."
+                    android:text="1. Select the billing month from the dropdown.\n2. Enter your total units used from 1 until 1000 (kWh).\n3. Choose a rebate percentage (0-5%).\n4. Click 'Calculate' to see your bill.\n5. Click 'Save Bill' to save your bill in history.\n6. Use 'View Billing History' to see previous calculations."
                     android:textSize="13sp"
                     android:lineSpacingExtra="4dp"/>
             </LinearLayout>
