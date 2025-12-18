@@ -128,7 +128,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to use the App"
+                    android:textColor="@color/pink_primary"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Select the billing month from the dropdown.\n2. Enter your total units used (kWh).\n3. Choose a rebate percentage (0-5%).\n4. Click 'Calculate' to see your bill.\n5. Click 'Save Bill' to save your bill in history.\n6. Use 'View Billing History' to see previous calculations."
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFF9C4">
 
                 <LinearLayout
                     android:layout_width="match_parent"
