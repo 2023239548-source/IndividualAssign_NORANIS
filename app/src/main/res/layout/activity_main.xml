@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="?attr/actionBarSize"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
             android:background="@color/pink_primary"
             app:titleTextColor="@color/white"
             app:title="@string/ElectricityBillApp"/>
@@ -26,6 +26,37 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="24dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#FFF9C4"> <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to use the App"
+                    android:textColor="@color/pink_primary"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Select the billing month from the dropdown.\n2. Enter your total units used (kWh).\n3. Choose a rebate percentage (0-5%).\n4. Click 'Calculate' to see your bill.\n5. Click 'Save Bill' to save your bill in history.\n6. Use 'View Billing History' to see previous calculations."
+                    android:textSize="13sp"
+                    android:textColor="#555555"
+                    android:lineSpacingExtra="5dp"/>
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:layout_width="wrap_content"
